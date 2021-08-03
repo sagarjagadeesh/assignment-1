@@ -1,0 +1,54 @@
+.carousel-slider {
+  height: 25rem;
+}
+
+.carousel {
+  .slide {
+    img {
+      height: 25rem !important;
+      object-fit: cover;
+    }
+
+    .legend {
+      background-color: transparent;
+      opacity: 1 !important;
+      top: 50% !important;
+    }
+  }
+}
+
+
+.carousel-bg {
+  padding-top: 10rem;
+}
+
+.carousel-bg-1 {
+  background: url("../../images/image1.jpeg");
+  height: 25rem;
+  background-size: cover;
+  background-position: top;
+}
+
+.carousel-bg-2 {
+  background: url("../../images/images3.jpeg");
+  height: 25rem;
+  background-size: cover;
+  background-position: top;
+}
+
+h2 {
+  height: inherit;
+  background: inherit;
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  text-align: center;
+  filter: invert(1) grayscale(1) contrast(9);
+}
+
+.react-player-cont {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 7rem;
+}
